@@ -1,0 +1,128 @@
+:root {
+    --branding-color: #EEECDF;
+    --first-color: #f2e9d0; 
+    --second-color: #eaceb4;
+    --third-color: #e79e85;
+    --fourth-color: #bb5a5a;
+    --letter-color: #3D3324;
+    --container-color:#ffffff;
+    --heading-font-family: "Playfair", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--default-font-family);
+    color: var(--letter-color);
+    margin: 30px;
+    padding: 14px;
+    background-color: var(--branding-color) !important; 
+}
+
+
+
+  .container{max-width: 700px;
+    background-color: var(--container-color) !important; 
+    border-radius: 15px;
+    padding: 15px;
+  
+}
+
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    
+ }
+
+nav {
+
+    padding: 1px 0;
+    background-color: var(--branding-color);
+    border-radius: 15px;
+    padding: 30px;
+    
+  }
+
+  .logo { max-height: 80px;
+    padding-left: 1px;
+  
+}
+  
+  nav ul {
+    padding-right: 15px;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--letter-color);
+    transition: all 100ms ease-in-out;
+  }
+  
+  nav a:hover,
+  nav li.active a {
+    color: var(--fourth-color);
+  }
+  
+  .hero {
+   background-color: var(--second-color);
+   border-radius: 15px;
+   padding: 30px;
+   margin: 15px;
+}
+.hero, h1{
+    font-size: 96px !important;
+}
+
+footer {
+    margin: 60px 0;
+  }
+  
+  footer .contact-box {
+    background: var(--second-color)!important;
+    color:var(--letter-color);
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  footer .contact-box p {
+    margin: 0;
+  }
+  
+  footer .email-link {
+    text-decoration: none;
+    color:var(--letter-color);
+    font-size: 24px!important;
+  }
+  
+  footer .email-link:hover {
+    color: var(--branding-color);
+  }
+  
+  footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--fourth-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+  }
+  
+  footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+  }
+
+  footer p {
+    color:var(--letter-color);
+
+  }
