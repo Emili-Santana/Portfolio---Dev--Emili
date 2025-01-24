@@ -134,3 +134,7 @@ footer {
     color:var(--letter-color);
 
   }
+
+  .header{
+    text-align: center;
+  }
