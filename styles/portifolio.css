@@ -14,7 +14,7 @@ body {
     font-family: var(--default-font-family);
     color: var(--letter-color);
     background-color: var(--branding-color) !important; 
-  
+    font-size: 1rem;
 }
 
 
@@ -83,12 +83,14 @@ nav {
    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2); 
 }
 .hero, h1{
-    font-size: 96px !important;
+   
+    font-size: 6rem !important;
 }
 
 .img-fluid {
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 100%;
+    height: auto;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); 
 
     
@@ -146,7 +148,12 @@ footer {
 
   .header{
     text-align: center;
+  }
 
+  .header p{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0;
   }
 
   @media (max-width: 768px) {
@@ -203,8 +210,10 @@ footer {
     .container {
         padding: 10px;
         margin-top: 10px;
+       
     }
 
+ 
     nav ul {
         flex-direction: column;
         align-items: flex-start;
