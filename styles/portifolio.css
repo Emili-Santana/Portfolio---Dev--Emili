@@ -15,6 +15,8 @@ body {
     color: var(--letter-color);
     background-color: var(--branding-color) !important; 
     font-size: 1rem;
+
+
 }
 
 
@@ -156,6 +158,20 @@ footer {
     margin-top: 0;
   }
 
+  .contact-info{
+    text-align: center;
+    padding: 10px;
+    margin: -30px;
+  }
+
+  .contact-info h2{
+ font-size: 30px!important; 
+ text-decoration: underline;
+  }
+
+  .contact-info a{
+    font-size: 20px!important; 
+     }
   @media (max-width: 768px) {
     .container {
         padding: 10px;
@@ -213,6 +229,7 @@ footer {
        
     }
 
+
  
     nav ul {
         flex-direction: column;
@@ -236,6 +253,19 @@ footer {
     .hero p {
         font-size: 0.9rem;
     }
+
+    .display-1 {
+      font-size: 3rem !important; 
+    }
+
+    #about-title {
+      font-size: 3rem!important; 
+    }
+
+  .contact-info h2 a {
+    font-size: 3rem !important; 
+  }
+     
 
     .img-fluid {
         max-width: 100%;
